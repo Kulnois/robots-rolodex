@@ -26,10 +26,7 @@ class App extends React.Component {
             <div>
                 <h1>Hello Robots Rolodex</h1>
                 <SearchBox />
-                <CardList />
-                {this.state.robots.map(robot => (
-                    <div key={robot.id}>{robot.name}</div>
-                ))}
+                <CardList robots={this.state.robots} />
 
             </div>
         )
