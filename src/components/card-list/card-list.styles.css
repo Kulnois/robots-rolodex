@@ -1,0 +1,17 @@
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: auto;
+    align-content: flex-start;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: auto;
+    align-content: flex-start;
+}

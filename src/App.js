@@ -24,7 +24,7 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                <h1>Hello Robots Rolodex</h1>
+                <h1>Robots Rolodex</h1>
                 <SearchBox />
                 <CardList robots={this.state.robots} />
 

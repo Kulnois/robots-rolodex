@@ -4,5 +4,5 @@ import './search-box.styles.css';
 
 
 export const SearchBox = () => (
-    <input type="search" placeholder="Buscar Robot" />
+    <input type="search" className="search" placeholder="Buscar Robot" />
 );
