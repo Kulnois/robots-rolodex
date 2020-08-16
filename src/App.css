@@ -3,3 +3,9 @@ h1 {
     color:#029a83;
     font-family: 'Metal Mania', cursive;
 }
+
+@media (max-width:320px){
+    h1 { 
+        font-size: 42px;
+    }
+}
